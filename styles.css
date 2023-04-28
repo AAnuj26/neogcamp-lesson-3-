@@ -4,6 +4,7 @@
 :root {
     --primary-color: red;
     --purple-color: blueviolet;
+    --off-white: #6B7280;
 
 
 }
@@ -104,3 +105,21 @@ hr {
     text-align:center;
 }
 
+
+/** section **/
+
+
+.section {
+    padding: 2rem;
+}
+
+
+.section h1 {
+    text-align: center;
+    padding: 2rem;
+}
+
+
+.ow {
+    background-color: var(--off-white);
+}
