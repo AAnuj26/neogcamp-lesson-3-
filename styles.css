@@ -27,6 +27,7 @@ hr {
 }
 
 
+
 /** links **/
 
 .link {
@@ -40,10 +41,49 @@ hr {
     color: white;
 }
 
-.link-secondary {
+.link-secondasry {
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
 }
 
 /** BEM naming convention for CSS **/
+
+/** lists **/
+
+.list-non-bullet {
+     list-style: none;
+}
+
+.list-item-inline {
+    
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+
+/** navigation **/
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link {
+    
+    color: white;
+
+}
+
+
+
