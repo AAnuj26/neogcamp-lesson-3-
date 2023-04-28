@@ -12,6 +12,7 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 
 hr {
@@ -125,3 +126,16 @@ hr {
 }
 
 /** footers **/
+
+
+.footer {
+    background-color: var(--purple-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color:white;
+    border-top-right-radius: 1rem;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
